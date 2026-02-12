@@ -1,4 +1,4 @@
-from datetime import datetime
+import datetime as dt
 
 """
 Expected output:
@@ -8,11 +8,11 @@ Oct 21 2022$
 $>
 """
 def format_ft_time():
-	start = datetime(1970, 1, 1)
-	end = datetime.now()
+	start = dt.datetime(1970, 1, 1)
+	end = dt.datetime.now()
 	difference = (end - start).total_seconds()
 
-	start_output = datetime.strftime(start,"%B %-d, %Y")
+	start_output = dt.datetime.strftime(start,"%B %-d, %Y")
 	print("Seconds since {0:}: {1:,.4f} or {1:.2e} in scientific notation".format(start_output, difference))
 	print("{0:}".format(end.strftime("%b %-d %Y")))
 
