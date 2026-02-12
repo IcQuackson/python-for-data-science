@@ -1,4 +1,3 @@
-# python-for-data-science
 ## Python Piscine
 
 A progressive, hands-on path to learn Python by building small, focused projects.
@@ -16,7 +15,7 @@ A sequence of independent mini-projects, completed in order:
 * **OOP** — classes, encapsulation, and design thinking
 * **Dod** — applied concepts combining previous modules
 
-The goal is not just to “finish exercises”, but to internalize how Python is used to model problems step-by-step. 
+The goal is not just to “finish exercises”, but to internalize how Python is used to model problems step-by-step.
 
 ---
 
@@ -56,4 +55,3 @@ This teaches *thinking in Python*:
 break problems → model data → design behavior → refine structure.
 
 By the end, you’re not memorizing Python — you’re using it naturally.
-
