@@ -14,6 +14,10 @@ def main():
     if argc == 2:
         text = sys.argv[1]
 
+    if argc == 1:
+        print("What is the text to count?")
+        text = sys.stdin.read()
+
     char_count: int = len(text)
     upper_count: int = sum(1 for c in text if c.isupper())
     lower_count: int = sum(1 for c in text if c.islower())
